@@ -1,0 +1,31 @@
+HTTP
+
+GET
+POST
+PUT
+DELETE
+
+
+GET /orders - Все заказы
+GET /orders/123 - Заказ 123
+
+DELETE /orders/123 - Удалить 123
+
+PUT /orders/123
+{
+    "name": "ksdbfsfb",
+    "age": "4.0",
+    "birth": ""
+}
+
+
+GET /storage/3/shelf/5/box/1
+
+
+CRUD
+
+
+
+
+GET /rest/greeting/Jane
+GET /rest/greeting?name=Jane
